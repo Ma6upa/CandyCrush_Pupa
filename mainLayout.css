@@ -1,0 +1,100 @@
+#mainColumn {
+  margin-top: 10px;
+  height: 320px;
+  width: 320px;
+}
+
+#firstColumn {
+  color: red;
+}
+
+#lastColumn{
+  display: none;
+  visibility: hidden;
+}
+
+#invalid {
+  visibility: hidden;
+  color: red;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+#score{
+  color:whitesmoke;
+  background-color: lightsalmon;
+}
+
+
+#inputBox {
+  width: 40px;
+  display: inline-block;
+}
+
+#lastColumn h2 {
+  display: inline-block;
+}
+
+.btn:disabled {
+  background-color: lightgrey;
+  color: black;
+}
+
+.btn {
+  color: black;
+  background-color: lightgreen;
+}
+
+.padCell {
+  padding: 5px 9px; 
+  height: 39px;
+  width: 39px;
+}
+
+.newGameBtn {
+  background-color: lightgrey;
+  color: black;
+}
+
+.modP {
+  margin: -10px;
+}
+
+.helpBtn {
+  background-color: lavender;
+}
+
+.active {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.winnerScreen {
+  display: block;
+}
+
+.winnerScreenDisabled {
+  display: none;
+}
+
+.winhnerScreen__title {
+  margin: 0 auto;
+  color:rgb(3, 45, 124);
+}
+
+.winhnerScreen__score {
+  margin: 0 auto;
+  color:rgb(3, 45, 124);
+}
+
+.winhnerScreen__button {
+  bottom: 15%;
+  width: 120px;
+  height: 60px;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(3, 45, 124);
+}
